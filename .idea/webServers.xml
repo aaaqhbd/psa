@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="1ed2ca06-281c-4187-9c49-b693d0bb9992" name="10" url="http://172.18.11.10">
+        <fileTransfer host="172.18.11.10" port="22" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="2ab5b992-7667-4139-9db1-035ca84f6345" name="12" url="http://172.18.11.12">
+        <fileTransfer host="172.18.11.12" port="22" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="71da8a67-1e5d-41b1-94a0-5d619b174c21" name="46" url="http://127.0.0.1">
+        <fileTransfer host="127.0.0.1" port="3346" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="3346" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="c1d2cda3-d87b-4b18-82c4-8d2de6dbd408" name="3310" url="http://127.0.0.1">
+        <fileTransfer host="127.0.0.1" port="3310" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="3310" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
